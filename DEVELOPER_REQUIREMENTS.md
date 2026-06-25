@@ -197,7 +197,7 @@ Acceptance criteria:
 **As a** coach, **I want** to pick from a library of exercises **so that** I don't retype exercise names.
 
 Acceptance criteria:
-- Seeded library of common exercises (name, primary muscle group, optional demo video URL).
+- Seeded library of common exercises (name, primary muscle group, demo video URL).
 - Coach can search/filter the library and add a custom exercise (custom exercises are private to that coach).
 
 #### FR-3.2 — Build a program
@@ -293,17 +293,17 @@ Acceptance criteria:
 - A conversation exists per coach–client pair; either party can send text messages.
 - New messages trigger a push + in-app notification to the recipient.
 - Messages show timestamps and read state; history persists and paginates.
-- **[ASSUMPTION]** MVP messaging is text-only and near-real-time (polling or websocket acceptable). Image/voice messages are future scope.
+- MVP messaging includes Image, voice and near-real-time (polling or websocket acceptable).
 
 ### 5.9 Payments (FR-9)
 
-> **[ASSUMPTION]** Use Stripe (Stripe Connect) so each coach receives payouts to their own account and the platform never holds funds directly. Do not build a payment processor. All card data is handled by Stripe — the app never sees or stores raw card numbers.
+> **[ASSUMPTION]** Use Stripe (Stripe Connect) so each coach receives payouts to their own account and the platform never holds funds directly. Do not build a payment processor. All card data is handled by Stripe — the app never sees or stores raw card numbers. Enable UPI Payments for India, wheeing coach can add their detials for the same.
 
 #### FR-9.1 — Coach sets a price
 **As a** coach, **I want** to set a monthly price for my coaching **so that** clients can subscribe.
 
 Acceptance criteria:
-- Coach connects a Stripe account (Stripe Connect onboarding) before they can charge.
+- Coach connects a Stripe/UPI account (Stripe Connect onboarding) before they can charge.
 - Coach sets a monthly subscription price and currency.
 - Coach cannot accept payments until Stripe onboarding is complete; show a clear prompt until then.
 
@@ -347,7 +347,7 @@ Acceptance criteria:
 
 ## 7. Information architecture & navigation
 
-### 7.1 Coach app (web)
+### 7.1 Coach app (iOS)
 
 - **Dashboard** — active clients, revenue, compliance, upcoming check-ins
 - **Clients** — client list → client profile (notes, programs, progress, check-ins, messages)
