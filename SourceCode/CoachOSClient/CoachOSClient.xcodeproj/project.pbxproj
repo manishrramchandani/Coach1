@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0AC05000000000000000002 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000001 /* AppState.swift */; };
+		C0AC05000000000000000004 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000003 /* CoachOSApp.swift */; };
+		C0AC05000000000000000006 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000005 /* RootView.swift */; };
+		C0AC05000000000000000009 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000008 /* Components.swift */; };
+		C0AC0500000000000000000B = {isa = PBXBuildFile; fileRef = C0AC0500000000000000000A /* Theme.swift */; };
+		C0AC0500000000000000000E = {isa = PBXBuildFile; fileRef = C0AC0500000000000000000D /* AccountView.swift */; };
+		C0AC05000000000000000011 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000010 /* IntakeOnboardingView.swift */; };
+		C0AC05000000000000000014 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000013 /* BillingView.swift */; };
+		C0AC05000000000000000017 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000016 /* CheckInView.swift */; };
+		C0AC0500000000000000001A = {isa = PBXBuildFile; fileRef = C0AC05000000000000000019 /* MessagesView.swift */; };
+		C0AC0500000000000000001D = {isa = PBXBuildFile; fileRef = C0AC0500000000000000001C /* ProgressDashboardView.swift */; };
+		C0AC05000000000000000020 = {isa = PBXBuildFile; fileRef = C0AC0500000000000000001F /* MainTabView.swift */; };
+		C0AC05000000000000000023 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000022 /* TodayView.swift */; };
+		C0AC05000000000000000026 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000025 /* WorkoutLoggingView.swift */; };
+		C0AC0500000000000000002A = {isa = PBXBuildFile; fileRef = C0AC05000000000000000029 /* Models.swift */; };
+		C0AC0500000000000000002C = {isa = PBXBuildFile; fileRef = C0AC0500000000000000002B /* Units.swift */; };
+		C0AC0500000000000000002F = {isa = PBXBuildFile; fileRef = C0AC0500000000000000002E /* APIService.swift */; };
+		C0AC05000000000000000031 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000030 /* Analytics.swift */; };
+		C0AC05000000000000000033 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000032 /* LocalStore.swift */; };
+		C0AC05000000000000000035 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000034 /* MockAPIService.swift */; };
+		C0AC05000000000000000037 = {isa = PBXBuildFile; fileRef = C0AC05000000000000000036 /* SyncEngine.swift */; };
+		C0AC0500000000000000003B = {isa = PBXBuildFile; fileRef = C0AC0500000000000000003A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0AC05000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoachOSApp.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000008 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Components.swift"; sourceTree = "<group>"; };
+		C0AC0500000000000000000A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme.swift"; sourceTree = "<group>"; };
+		C0AC0500000000000000000D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountView.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000010 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IntakeOnboardingView.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BillingView.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000016 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckInView.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000019 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MessagesView.swift"; sourceTree = "<group>"; };
+		C0AC0500000000000000001C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressDashboardView.swift"; sourceTree = "<group>"; };
+		C0AC0500000000000000001F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabView.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000022 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodayView.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000025 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutLoggingView.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000029 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models.swift"; sourceTree = "<group>"; };
+		C0AC0500000000000000002B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Units.swift"; sourceTree = "<group>"; };
+		C0AC0500000000000000002E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIService.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000030 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Analytics.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000032 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalStore.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000034 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockAPIService.swift"; sourceTree = "<group>"; };
+		C0AC05000000000000000036 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SyncEngine.swift"; sourceTree = "<group>"; };
+		C0AC0500000000000000003A = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		C0AC0500000000000000003D = {isa = PBXFileReference; includeInIndex = 0; explicitFileType = wrapper.application; path = "CoachOSClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0AC05000000000000000042 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0AC05000000000000000007 = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000001,
+				C0AC05000000000000000003,
+				C0AC05000000000000000005,
+			);
+			name = "App";
+			path = "App";
+			sourceTree = "<group>";
+		};
+		C0AC0500000000000000000C = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000008,
+				C0AC0500000000000000000A,
+			);
+			name = "DesignSystem";
+			path = "DesignSystem";
+			sourceTree = "<group>";
+		};
+		C0AC0500000000000000000F = {
+			isa = PBXGroup;
+			children = (
+				C0AC0500000000000000000D,
+			);
+			name = "Account";
+			path = "Account";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000012 = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000010,
+			);
+			name = "Auth";
+			path = "Auth";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000015 = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000013,
+			);
+			name = "Billing";
+			path = "Billing";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000018 = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000016,
+			);
+			name = "CheckIns";
+			path = "CheckIns";
+			sourceTree = "<group>";
+		};
+		C0AC0500000000000000001B = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000019,
+			);
+			name = "Messaging";
+			path = "Messaging";
+			sourceTree = "<group>";
+		};
+		C0AC0500000000000000001E = {
+			isa = PBXGroup;
+			children = (
+				C0AC0500000000000000001C,
+			);
+			name = "Progress";
+			path = "Progress";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000021 = {
+			isa = PBXGroup;
+			children = (
+				C0AC0500000000000000001F,
+			);
+			name = "Root";
+			path = "Root";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000024 = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000022,
+			);
+			name = "Today";
+			path = "Today";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000027 = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000025,
+			);
+			name = "Workout";
+			path = "Workout";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000028 = {
+			isa = PBXGroup;
+			children = (
+				C0AC0500000000000000000F,
+				C0AC05000000000000000012,
+				C0AC05000000000000000015,
+				C0AC05000000000000000018,
+				C0AC0500000000000000001B,
+				C0AC0500000000000000001E,
+				C0AC05000000000000000021,
+				C0AC05000000000000000024,
+				C0AC05000000000000000027,
+			);
+			name = "Features";
+			path = "Features";
+			sourceTree = "<group>";
+		};
+		C0AC0500000000000000002D = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000029,
+				C0AC0500000000000000002B,
+			);
+			name = "Models";
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000038 = {
+			isa = PBXGroup;
+			children = (
+				C0AC0500000000000000002E,
+				C0AC05000000000000000030,
+				C0AC05000000000000000032,
+				C0AC05000000000000000034,
+				C0AC05000000000000000036,
+			);
+			name = "Services";
+			path = "Services";
+			sourceTree = "<group>";
+		};
+		C0AC05000000000000000039 = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000007,
+				C0AC0500000000000000000C,
+				C0AC05000000000000000028,
+				C0AC0500000000000000002D,
+				C0AC05000000000000000038,
+			);
+			name = "Sources";
+			path = "Sources";
+			sourceTree = "<group>";
+		};
+		C0AC0500000000000000003C = {
+			isa = PBXGroup;
+			children = (
+				C0AC0500000000000000003A,
+			);
+			name = "Support";
+			path = "Support";
+			sourceTree = "<group>";
+		};
+		C0AC0500000000000000003E = {
+			isa = PBXGroup;
+			children = (
+				C0AC0500000000000000003D,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		C0AC0500000000000000003F = {
+			isa = PBXGroup;
+			children = (
+				C0AC05000000000000000039,
+				C0AC0500000000000000003C,
+				C0AC0500000000000000003E,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0AC05000000000000000043 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AC05000000000000000046;
+			buildPhases = (
+				C0AC05000000000000000040,
+				C0AC05000000000000000042,
+				C0AC05000000000000000041,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = CoachOSClient;
+			productName = CoachOSClient;
+			productReference = C0AC0500000000000000003D;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0AC05000000000000000044 = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = { C0AC05000000000000000043 = { CreatedOnToolsVersion = 15.0; }; };
+			};
+			buildConfigurationList = C0AC05000000000000000045;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = ( en, Base );
+			mainGroup = C0AC0500000000000000003F;
+			productRefGroup = C0AC0500000000000000003E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = ( C0AC05000000000000000043 );
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0AC05000000000000000041 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+				C0AC0500000000000000003B /* Assets.xcassets */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0AC05000000000000000040 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				C0AC05000000000000000002 /* AppState.swift */,
+				C0AC05000000000000000004 /* CoachOSApp.swift */,
+				C0AC05000000000000000006 /* RootView.swift */,
+				C0AC05000000000000000009 /* Components.swift */,
+				C0AC0500000000000000000B /* Theme.swift */,
+				C0AC0500000000000000000E /* AccountView.swift */,
+				C0AC05000000000000000011 /* IntakeOnboardingView.swift */,
+				C0AC05000000000000000014 /* BillingView.swift */,
+				C0AC05000000000000000017 /* CheckInView.swift */,
+				C0AC0500000000000000001A /* MessagesView.swift */,
+				C0AC0500000000000000001D /* ProgressDashboardView.swift */,
+				C0AC05000000000000000020 /* MainTabView.swift */,
+				C0AC05000000000000000023 /* TodayView.swift */,
+				C0AC05000000000000000026 /* WorkoutLoggingView.swift */,
+				C0AC0500000000000000002A /* Models.swift */,
+				C0AC0500000000000000002C /* Units.swift */,
+				C0AC0500000000000000002F /* APIService.swift */,
+				C0AC05000000000000000031 /* Analytics.swift */,
+				C0AC05000000000000000033 /* LocalStore.swift */,
+				C0AC05000000000000000035 /* MockAPIService.swift */,
+				C0AC05000000000000000037 /* SyncEngine.swift */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0AC05000000000000000047 = {isa = XCBuildConfiguration; buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			}; name = Debug; };
+		C0AC05000000000000000048 = {isa = XCBuildConfiguration; buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			}; name = Release; };
+		C0AC05000000000000000049 = {isa = XCBuildConfiguration; buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CoachOS uses your camera to capture progress photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "CoachOS uses your photos so you can add progress photos for your coach.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coachos.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Debug; };
+		C0AC0500000000000000004A = {isa = XCBuildConfiguration; buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CoachOS uses your camera to capture progress photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "CoachOS uses your photos so you can add progress photos for your coach.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coachos.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0AC05000000000000000045 = {isa = XCConfigurationList; buildConfigurations = ( C0AC05000000000000000047, C0AC05000000000000000048 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C0AC05000000000000000046 = {isa = XCConfigurationList; buildConfigurations = ( C0AC05000000000000000049, C0AC0500000000000000004A ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = C0AC05000000000000000044;
+}
