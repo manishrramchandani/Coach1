@@ -1,0 +1,31 @@
+# CALLOUT: XcodeGen spec. iOS teams generate the .xcodeproj deterministically from
+# this instead of hand-maintaining a fragile project.pbxproj. One command:
+#     brew install xcodegen && xcodegen generate
+# then open CoachOSClient.xcodeproj in Xcode 15+ and Run. Deployment target iOS 16
+# (matches the n-1 device coverage in MVP QA §10.1) so Swift Charts is available.
+name: CoachOSClient
+options:
+  bundleIdPrefix: com.coachos
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0"
+    DEVELOPMENT_TEAM: ""            # set your Apple Team ID to run on a device
+    GENERATE_INFOPLIST_FILE: NO
+targets:
+  CoachOSClient:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Support/Assets.xcassets
+    info:
+      path: Support/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.coachos.client
+        INFOPLIST_FILE: Support/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
